@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://cddpvcctpind1"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qvgui"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lhxl0"]
+
+[node name="Player" type="Area2D"]
+
+[node name="colisão" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_qvgui")
+
+[node name="animação" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_lhxl0")
